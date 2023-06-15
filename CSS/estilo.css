@@ -5,7 +5,7 @@
     font-family: 'Open Sans';
 }
 body{
-    background: linear-gradient(250deg, red, #696969, #000000);
+    background: linear-gradient(250deg, red, #000, #696969);
     color: white;
 }
 .cordo
@@ -90,7 +90,7 @@ header h1{
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
-    background: linear-gradient(250deg, red, #696969, #000000);
+    background: linear-gradient(250deg, red, #000, #696969);
 }
 .contenedor .contenedor-items .item .img-item{
     width: 100%;
@@ -282,10 +282,7 @@ figcaption{
 }
 
 @media screen and (max-width: 425px){
-    
-    body{
-        background: orchid;
-    }
+
     header{
         background: url(../../img/pa.jpg) gray;
     /* background-size: cover; */
