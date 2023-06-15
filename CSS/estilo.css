@@ -286,7 +286,7 @@ figcaption{
     scale: 1.05;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 671px){
 
     header{
         background: url(../../img/pa.jpg) gray;
