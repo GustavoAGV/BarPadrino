@@ -8,6 +8,11 @@ body{
     background: linear-gradient(250deg, red, #000, #696969);
     color: white;
 }
+
+._2pi8{
+    background: white;
+}
+
 .cordo
         {
             background: gray;
