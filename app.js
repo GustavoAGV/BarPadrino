@@ -39,9 +39,67 @@ function ready(){
     }
 
     //Agregamos funcionalidad al botón comprar
-    document.getElementsByClassName('btn-pagar')[0].addEventListener('click',pagarClicked)
+    document.getElementsByClassName('btn-pagar')[0].addEventListener('click',pagarClicked);
 }
 //Eliminamos todos los elementos del carrito y lo ocultamos
+
+function mostrar(){
+    swal({
+
+        title: 'Brandy',
+        text: 'waos'
+    });
+}
+function mostrar1(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel es de color rojo. DEAAh'
+    });
+}
+function mostrar2(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel es de color verde. DEAAh'
+    });
+}
+function mostrar3(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel es de color naranja. DEAAh'
+    });
+}
+function mostrar4(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel es de color cafe. DEAAh'
+    });
+}
+function mostrar5(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel tiene popote. DEAAh'
+    });
+}
+function mostrar6(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel es de color dorado. DEAAh'
+    });
+}
+function mostrar7(){
+    swal({
+
+        title: 'Brandy',
+        text: 'Este coctel es espumoso. DEAAh'
+    });
+}
+
 function pagarClicked(){
     alert("Gracias por la compra");
     //Elimino todos los elmentos del carrito
@@ -113,7 +171,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc){
     itemsCarrito.append(item);
 
     //Agregamos la funcionalidad eliminar al nuevo item
-     item.getElementsByClassName('btn-eliminar')[0].addEventListener('click', eliminarItemCarrito);
+    item.getElementsByClassName('btn-eliminar')[0].addEventListener('click', eliminarItemCarrito);
 
     //Agregmos al funcionalidad restar cantidad del nuevo item
     var botonRestarCantidad = item.getElementsByClassName('restar-cantidad')[0];
